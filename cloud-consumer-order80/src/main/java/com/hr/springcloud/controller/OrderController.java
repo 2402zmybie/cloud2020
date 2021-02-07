@@ -14,7 +14,8 @@ import org.springframework.web.client.RestTemplate;
 //订单的客户端, 调用支付的服务
 public class OrderController {
 
-    public static final String PAYMENT_URL = "http://localhost:8001";
+//    public static final String PAYMENT_URL = "http://localhost:8001";
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     //RestTemplate提供了多种便捷访问远程Http服务的方法
     //是一种简单便捷的访问restful服务模板类, 是Spring提供的用于访问Rest服务的客户端模板工具类
